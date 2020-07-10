@@ -184,7 +184,7 @@ a:hover{
 color:white;
 }
 input, select, textarea, option{
-border: 1px #7B7B7B solid;
+border: 1px white solid;
 -moz-border-radius: 5px;
 -webkit-border-radius:5px;
 border-radius:5px;
@@ -217,7 +217,7 @@ for($i=0;$i<=$id;$i++){
 echo "$paths[$i]";
 if($i != $id) echo "/";
 }
-echo '">'.$pat.'</a>/ ';
+echo '">'.$pat.'</a>/';
 }
 echo "</td></tr><tr><td>";
 echo "<center><hr><a href='?' class='pejoe'>Home</a>
